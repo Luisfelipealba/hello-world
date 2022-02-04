@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tu peso en donde pesas menos </title>
+
+</head>
+<body>
+  <h1>tu peso en otro planeta  </h1>
+  <p>en la tierra pesas distinto que marte o jupiter </p>
+  <script>
+  usuario=prompt("cuanto pesas");
+  var peso=parseFloat(usuario);
+  var g_tierra = 9.81;
+  var g_marte = 3.7;
+  var g_jupiter = 24.8;
+  var peso_final;
+  peso_final=peso*g_marte/g_tierra;
+  peso_final=parseFloat(peso_final);
+  document.write("Usted pesa en marte: <strong>" + peso_final + " Kg </strong>");
+
+  </script>
+
+</body>
+
+</html>
